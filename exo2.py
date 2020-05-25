@@ -18,7 +18,7 @@ class Window(QWidget):
         self.layout.addWidget(self.button)
         self.layout.addWidget(self.button2)
 
-        self.setWindowTitle("Commentaire :")
+
         self.setLayout(self.layout)
 
 

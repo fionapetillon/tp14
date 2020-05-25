@@ -1,4 +1,5 @@
 from PySide2.QtWidgets import *
+
 class Window(QWidget):
 
     def __init__(self):
