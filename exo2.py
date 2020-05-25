@@ -4,11 +4,11 @@ class Window(QWidget):
     def __init__(self):
         QWidget.__init__(self)
 
-        self.setWindowTitle("OK")
+        self.setWindowTitle("IHM")
 
         self.layout = QGridLayout()
 
-        self.label = QLabel("Commentaire :")
+        self.label = QLabel("Laisser un commentaire:")
         self.text = QTextEdit()
         self.button = QPushButton("Success")
         self.button2 = QPushButton("Exit")
